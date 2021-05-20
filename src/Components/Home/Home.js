@@ -2,7 +2,8 @@ import React from "react";
 import "./Home.css";
 import bg from "./../../assets/Bg21.png";
 import Object from "./../../assets/object1.png";
-import { BrowserRouter as useHistory } from "react-router-dom";
+import { useHistory } from "react-router";
+
 const Home = () => {
   const history = useHistory();
 
