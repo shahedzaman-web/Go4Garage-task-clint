@@ -2,14 +2,14 @@ import React from "react";
 import "./Home.css";
 import bg from "./../../assets/Bg21.png";
 import Object from "./../../assets/object1.png";
-import { BrowserRouter as Link, useHistory } from "react-router-dom";
+import { BrowserRouter as useHistory } from "react-router-dom";
 const Home = () => {
   const history = useHistory();
 
   return (
     <div>
       <div className="position-relative">
-        <img className="home-img w-100" src={bg} alt="" srcset="" />
+        <img className="home-img w-100" src={bg} alt="" srcSet="" />
         <div className="position-absolute img-top ">
           <img className="img-top" src={Object} alt="" />
         </div>

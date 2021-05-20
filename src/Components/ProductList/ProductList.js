@@ -14,7 +14,7 @@ const ProductList = () => {
   return (
     <div>
       <div className="position-relative">
-        <img className="home-img w-100" src={bg} alt="" srcset="" />
+        <img className="home-img w-100" src={bg} alt="" srcSet="" />
         <div className="position-absolute img-top ">
           <img className="img-top img-fluid w-25" src={Object} alt="" />
         </div>
@@ -22,7 +22,10 @@ const ProductList = () => {
           <h1>List of Product</h1>
           <div className="d-flex flex-row bd-highlight flex-wrap ">
             {productList.map((item) => (
-              <ProductListDetails item={item}></ProductListDetails>
+              <ProductListDetails
+                key={item._id}
+                item={item}
+              ></ProductListDetails>
             ))}
           </div>
         </div>

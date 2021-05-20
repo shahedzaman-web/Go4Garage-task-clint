@@ -37,7 +37,7 @@ const AddProduct = () => {
     <div>
       <div>
         <div className="position-relative">
-          <img className="home-img w-100" src={bg} alt="" srcset="" />
+          <img className="home-img w-100" src={bg} alt="" srcSet="" />
           <div className="position-absolute img-top ">
             <img className="img-top" src={Object} alt="" />
           </div>
@@ -49,38 +49,38 @@ const AddProduct = () => {
             action="submit"
             className="d-flex flex-column bd-highlight ms-5"
           >
-            <div class="mb-3 ">
-              <label for="formGroupExampleInput" class="form-label">
+            <div className="mb-3 ">
+              <label htmlFor="formGroupExampleInput" className="form-label">
                 Title
               </label>
               <input
                 onBlur={handleBlur}
                 type="text"
-                class="form-control w-50"
+                className="form-control w-50"
                 id="formGroupExampleInput"
                 placeholder="Enter title"
               />
             </div>
-            <div class="mb-3">
-              <label for="formGroupExampleInput2" class="form-label">
+            <div className="mb-3">
+              <label htmlFor="formGroupExampleInput2" className="form-label">
                 Description
               </label>
               <input
                 onBlur={handleBlur}
                 type="text"
-                class="form-control w-50"
+                className="form-control w-50"
                 id="formGroupExampleInput2"
                 placeholder="Enter Description"
               />
             </div>
-            <div class="mb-3">
-              <label for="formGroupExampleInput2" class="form-label">
+            <div className="mb-3">
+              <label htmlFor="formGroupExampleInput2" className="form-label">
                 Price
               </label>
               <input
                 onBlur={handleBlur}
                 type="text"
-                class="form-control w-50"
+                className="form-control w-50"
                 id="formGroupExampleInput2"
                 placeholder="Enter Price"
               />

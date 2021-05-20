@@ -8,7 +8,7 @@ const LoginHome = () => {
   return (
     <div>
       <div className="position-relative">
-        <img className="home-img w-100" src={bg} alt="" srcset="" />
+        <img className="home-img w-100" src={bg} alt="" srcSet="" />
         <div className="position-absolute img-top ">
           <img className="img-top" src={Object} alt="" />
         </div>
@@ -19,13 +19,13 @@ const LoginHome = () => {
           className="ms-5 w-50 btn btn-light  text-start"
           onClick={() => history.push("/user/login")}
         >
-          <i class="bi bi-person-badge"></i> User Log In
+          <i className="bi bi-person-badge"></i> User Log In
         </button>
         <button
           className=" text-start ms-5 w-50 btn btn-light my-3"
           onClick={() => history.push("/vendor/login")}
         >
-          <i class="bi bi-person-circle"></i> Vendor Log In
+          <i className="bi bi-person-circle"></i> Vendor Log In
         </button>
       </div>
 

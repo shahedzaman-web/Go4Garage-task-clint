@@ -52,7 +52,7 @@ const VendorLogin = () => {
     <div>
       <div>
         <div className="position-relative">
-          <img className="home-img w-100" src={bg} alt="" srcset="" />
+          <img className="home-img w-100" src={bg} alt="" srcSet="" />
           <div className="position-absolute img-top ">
             <img className="img-top" src={Object} alt="" />
           </div>
@@ -65,27 +65,27 @@ const VendorLogin = () => {
             action="submit"
             onSubmit={handleSubmit(onSubmit)}
           >
-            <div class="mb-3 ">
-              <label for="formGroupExampleInput" class="form-label">
+            <div className="mb-3 ">
+              <label htmlFor="formGroupExampleInput" className="form-label">
                 Email
               </label>
               <input
                 type="text"
                 name="email"
-                class="form-control w-50"
+                className="form-control w-50"
                 id="formGroupExampleInput"
                 placeholder="Enter Email"
                 onBlur={handleBlur}
               />
             </div>
-            <div class="mb-3">
-              <label for="formGroupExampleInput2" class="form-label">
+            <div className="mb-3">
+              <label htmlFor="formGroupExampleInput2" className="form-label">
                 Password
               </label>
               <input
                 type="password"
                 name="password"
-                class="form-control w-50"
+                className="form-control w-50"
                 id="formGroupExampleInput2"
                 placeholder="Enter Password"
                 onBlur={handleBlur}

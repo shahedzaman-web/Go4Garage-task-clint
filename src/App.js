@@ -6,7 +6,7 @@ import LoginHome from "./Components/Login/LoginHome";
 
 import ProductList from "./Components/ProductList/ProductList";
 import AddProduct from "./Components/AddProduct/AddProduct";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import UserLogin from "./Components/Login/UserLogin";
 import VendorLogin from "./Components/Login/VendorLogin";
 
